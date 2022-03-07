@@ -21,7 +21,9 @@ function TodoApp() {
     >
       <AppBar color='primary' position='static' style={{ height: '64px' }}>
         <Toolbar>
-          <Typography color='inherit'>MY LIST</Typography>
+          <Typography variant='h6' color='inherit'>
+            My One List
+          </Typography>
         </Toolbar>
       </AppBar>
       <Grid container justify='center' style={{ marginTop: '2rem' }}>
