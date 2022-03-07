@@ -15,16 +15,16 @@ function TodoApp() {
         padding: 0,
         margin: 0,
         height: '100vh',
-        backgroundColor: '#fafafa'
+        backgroundColor: '#fafafa',
       }}
       elevation={0}
     >
-      <AppBar color="primary" position="static" style={{ height: '64px' }}>
+      <AppBar color='primary' position='static' style={{ height: '64px' }}>
         <Toolbar>
-          <Typography color="inherit">TODOS WITH HOOKS</Typography>
+          <Typography color='inherit'>MY LIST</Typography>
         </Toolbar>
       </AppBar>
-      <Grid container justify="center" style={{ marginTop: '2rem' }}>
+      <Grid container justify='center' style={{ marginTop: '2rem' }}>
         <Grid item xs={11} md={8} lg={4}>
           <TodosProvider>
             <TodoForm />
